@@ -11,13 +11,13 @@ clone https://github.com/OmelaTk/esteelauder.git
 to run tests use Maven. (https://maven.apache.org/)
 Maven should be installed on target computer and maven executable files should be added to path
 
-# To run in Chrome Browser
+### To run in Chrome Browser
 Chrome should be installed
 ```shell
 mvn clean test -Dbrowser=chrome
 ```
 
-# To run in Firefox Browser
+### To run in Firefox Browser
 Firefox should be installed
 ```shell
 mvn clean test -Dbrowser=firefox
