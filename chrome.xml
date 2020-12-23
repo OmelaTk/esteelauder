@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestEL">
+    <parameter name="browser" value="chrome"/>
+    <test name="All tests">
+        <classes>
+            <class name="testSuites.TestHeaderMenu">
+                <methods>
+                    <include name="openGiftsPage_GiftsPageOpened"/>
+                    <include name="openSkincarePage_SkincarePageOpened"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
